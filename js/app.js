@@ -16,14 +16,14 @@
     .directive('bookCover', function(){
       return {
         restrict: 'E',
-        templateUrl: '../partials/book-cover.html',
+        templateUrl: 'partials/book-cover.html',
         replace: true
       }
     })
     .directive('bookGenres', function(){
       return {
         restrict: 'E',
-        templateUrl: '../partials/book-genres.html',
+        templateUrl: 'partials/book-genres.html',
         replace: true,
         scope: {
           genres: '='
